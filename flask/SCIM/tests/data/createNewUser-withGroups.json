@@ -1,0 +1,34 @@
+{
+    "schemas": ["urn:scim:schemas:core:1.0"],
+    "userName": "myemail123@domain.com",
+    "emails": [
+        {
+            "primary": true,
+            "value": "myemail123@domain.com",
+            "type": "primary"
+        },
+        {
+            "primary": false,
+            "value": "mypersonalemail123@domain.com",
+            "type": "secondary"
+        }
+    ],
+    "phoneNumbers": [
+        {
+            "value": "123-444-5555",
+            "type": "mobile"
+        }
+    ],
+    "name": {
+        "familyName": "LastName123",
+        "givenName": "FirstName123"
+    },
+    "active": true,
+    "password": "verySecure",
+    "groups": [
+        {
+            "display": "Sales",
+            "value": "312EB3D5-C1CE-F499-51D1-4EF1B417CA80"
+        }
+    ]
+}
